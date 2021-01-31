@@ -22,6 +22,7 @@ import visualisation.ShuntDraw;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
+		System.out.println("Test merge");
 		Instance inst = getData();
 		//Draw output
 		ArrayList<MetroMovement> movements=new ArrayList<>();
